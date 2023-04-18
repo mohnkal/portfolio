@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Code+Pro:wght@300&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&family=Teko:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    transition: transform 0.3s ease-in;
+    background-color: grey; 
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    font-weight: bold;
+}
+.sidebar nav{
+    padding: 15px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: rgb(20, 225, 109);  */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 33px;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Teko;
+}
+.about{
+    font-size: 29px;
+}
+.moreabout{
+    font-family: Teko;
+    margin-top: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.btn{
+    padding: 8px;
+    margin-top: 34px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(22, 139, 212);
+    font-weight: bold;
+    font-size: 14px;
+    margin: 12px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: crimson;
+    background-color: white;
+}
+.devPic img{
+    height: 58vh;
+    width: 58vh;
+}
+
+.contactinfo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 150px;
+}
+.contactinfo h1{
+    padding-top: 144px;
+    font-family: Teko;
+    text-align: center;
+    word-spacing: 10px;
+}
+.contactinfo h3{
+    padding-left: 50px;
+    color: red;
+    padding-bottom: 20px;
+}
+.n{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    width: 30vw;
+    border-radius: 20px;
+    margin: 6px 0;
+    padding: 3px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    width: 30vw;
+    border-radius: 20px;
+    margin: 6px 0;
+    padding: 3px;
+}
+.mobile{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    width: 30vw;
+    border-radius: 20px;
+    margin: 6px 0;
+    padding: 3px;
+}
+.contactinfo form div{
+    font-size: 16px;
+}
+.contact form div{
+    width: 16vw;
+    border-radius: 20px;
+    margin: 6px 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: rgb(61, 125, 165);
+    margin: 0 10px;
+}
+.contactinfo form{
+    padding-left: 30px;
+}
+.skill{
+    width: 263px;
+    height: 10px;
+    background-color: red;
+    border: 2px solid black;
+}
+.skillItem{
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.skillcontainer{
+    padding: 12px;
+    font-size: 24px;
+}
+.hundred{
+    width: 265px;
+    background-color: yellow;
+}
+.fifty{
+    width: 145px;
+    background-color: blueviolet;
+}
+.t5{
+    width: 75px;
+    background-color: green;
+}
+p{
+    font-size: 24px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+@media (max-width: 941px) {
+    /* .sidebar{ */
+    /* transform: translate(-443px, 0px); */
+    /* background-color: grey; */
+    /* } */
+    .devPic{
+        display: none;
+      }
+  }
+  .sidebargo{
+        transform: translate(-443px, 0px);
+        position: absolute;
+        opacity: 1;
+  }
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+  }
+  .cross{
+    margin-left: 160px;
+  }
+  .intro{
+    margin-left: 150px;;
+  }
+  .hobbies{
+    margin-left: 180px;
+  }
+ 
